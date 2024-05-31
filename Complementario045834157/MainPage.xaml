@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Complementario045834157.MainPage">
+
+    <StackLayout Padding="20">
+
+        <Label Text="Ingrese un número entero positivo:"
+               FontSize="20"
+               HorizontalOptions="Center" />
+
+        <Entry x:Name="NumberEntry"
+               Placeholder="Número"
+               Keyboard="Numeric"
+               FontSize="20" />
+
+        <Button Text="Calcular"
+                Clicked="OnCounterClicked"
+                FontSize="20"
+                HorizontalOptions="Center" />
+
+        <Label x:Name="TrianguloResultado"
+               FontSize="20"
+               HorizontalOptions="Center" />
+
+        <Label x:Name="CuboResultado"
+               FontSize="20"
+               HorizontalOptions="Center" />
+
+        <Image Source="cubo.jpg" 
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+               WidthRequest="800" 
+               HeightRequest="200" />
+
+    </StackLayout>
+
+</ContentPage>
